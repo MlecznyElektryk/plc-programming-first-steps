@@ -1,2 +1,0 @@
-// Latching logic
-Y1 := (X1 OR Y1) AND NOT X2;
