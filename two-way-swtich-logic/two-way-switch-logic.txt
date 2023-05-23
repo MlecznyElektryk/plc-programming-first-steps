@@ -1,0 +1,5 @@
+// Two way switch logic
+// This is PLC program for two ways switch logic for staircase light in house.
+// We can turn on or turn off the lamp using switch_1 or switch_2 as well.
+
+Lamp_1 := (Switch_1 AND Switch_2) OR (NOT(Switch_1) AND NOT(Switch_2));
